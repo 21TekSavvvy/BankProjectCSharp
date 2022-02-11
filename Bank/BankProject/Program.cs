@@ -26,7 +26,44 @@
 
         if (userName == "system" && password == "manager")
         {
-            System.Console.WriteLine("To Do: Main menu here");
+            menu();
         }
+        else
+        {
+            System.Console.WriteLine("Invalid username or password!");
+        }
+    }
+    public void menu()
+    {
+        int choice = -1;
+        do
+        {
+        
+            System.Console.WriteLine("\n:::Main menu:::");
+            System.Console.WriteLine("1. Customers");
+            System.Console.WriteLine("2. Accounts");
+            System.Console.WriteLine("3. Funds Transfers");
+            System.Console.WriteLine("4. Funds Transfers statement");
+            System.Console.WriteLine("5. Account Statement");
+            System.Console.WriteLine("0. Exit");
+
+            System.Console.Write("Enter choice: ");
+            choice =int.Parse(System.Console.ReadLine ());
+
+                switch (choice)
+                {
+                    case 1: //Customer menu
+                        break;
+                    case 2: // Accounts menu
+                        break;
+                    case 3:  // funds transfer
+                        break;
+                    case 4: //funds transfer statement
+                        break;
+                    case 5: // account statement
+                        break;
+                } 
+
+        } while (choice != 0);
     }
 }
