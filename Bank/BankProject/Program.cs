@@ -52,9 +52,9 @@
 
                 switch (choice)
                 {
-                    case 1: //Customer menu
+                    case 1:  customerMenu();//Customer menu
                         break;
-                    case 2: // Accounts menu
+                    case 2: accountMenu(); // Accounts menu
                         break;
                     case 3:  // funds transfer
                         break;
@@ -65,5 +65,71 @@
                 } 
 
         } while (choice != 0);
+    }
+
+    public void customerMenu()
+    {
+        int cChoice = -1;
+        do
+        {
+            System.Console.WriteLine("\n::::Customers menu::::");
+            System.Console.WriteLine("1. Add Customer");
+            System.Console.WriteLine("2. Delete Customer");
+            System.Console.WriteLine("3. Update Customer");
+            System.Console.WriteLine("4. View Customer");
+            System.Console.WriteLine("0. Back to the Main Menu");
+            System.Console.WriteLine("Enter choice: ");
+            cChoice = System.Convert.ToInt32(System.Console.ReadLine());
+            switch (cChoice)
+            {
+                case 1: //Add customer
+                    break;
+                case 2: // Delete Customer
+                    break;
+                case 3: // Update Customer
+                    break;
+                case 4: // View Customer
+                    break;
+                    default: menu();
+                    break;
+
+            }
+        } while (cChoice != 0);
+
+        
+
+        
+    }
+    public void accountMenu()
+    {
+        int aChoice = -1;
+        do
+        {
+            System.Console.WriteLine("\n::::Account menu::::");
+            System.Console.WriteLine("1. Add Account");
+            System.Console.WriteLine("2. Delete Account");
+            System.Console.WriteLine("3. Update Account");
+            System.Console.WriteLine("4. View Account");
+            System.Console.WriteLine("0. Back to the Main Menu");
+        } while (aChoice != 0);
+
+        System.Console.WriteLine("Enter choice: ");
+        aChoice = System.Convert.ToInt32(System.Console.ReadLine());
+
+        switch (aChoice)
+        {
+            case 1: //Add Account
+                break;
+            case 2: // Delete Account
+                break;
+            case 3: // Update Account
+                break;
+            case 4: // View Account
+                break;
+            default:
+                menu();
+                break;
+
+        }
     }
 }
