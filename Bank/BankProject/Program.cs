@@ -111,25 +111,27 @@
             System.Console.WriteLine("3. Update Account");
             System.Console.WriteLine("4. View Account");
             System.Console.WriteLine("0. Back to the Main Menu");
+            System.Console.WriteLine("Enter choice: ");
+            aChoice = System.Convert.ToInt32(System.Console.ReadLine());
+            switch (aChoice)
+                    {
+                        case 1: //Add Account
+                            break;
+                        case 2: // Delete Account
+                            break;
+                        case 3: // Update Account
+                            break;
+                        case 4: // View Account
+                            break;
+                        default:
+                            menu();
+                            break;
+
+                    }
         } while (aChoice != 0);
 
-        System.Console.WriteLine("Enter choice: ");
-        aChoice = System.Convert.ToInt32(System.Console.ReadLine());
+        
 
-        switch (aChoice)
-        {
-            case 1: //Add Account
-                break;
-            case 2: // Delete Account
-                break;
-            case 3: // Update Account
-                break;
-            case 4: // View Account
-                break;
-            default:
-                menu();
-                break;
-
-        }
+        
     }
 }
