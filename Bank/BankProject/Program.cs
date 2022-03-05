@@ -17,19 +17,23 @@
 
         System.Console.Write("Username: ");
         userName = System.Console.ReadLine();
-
+        
+        // check if username isn't empty
         if (userName != "")
         {
             System.Console.Write("Password: ");
             password = System.Console.ReadLine();
         }
 
+        //temp user and password
+        // check if the login info matchs the credentials
         if (userName == "system" && password == "manager")
         {
             menu();
         }
         else
         {
+            // Username or Password didn't match
             System.Console.WriteLine("Invalid username or password!");
         }
     }
@@ -38,7 +42,7 @@
         int choice = -1;
         do
         {
-        
+            // print out the menu
             System.Console.WriteLine("\n:::Main menu:::");
             System.Console.WriteLine("1. Customers");
             System.Console.WriteLine("2. Accounts");
@@ -49,20 +53,20 @@
 
             System.Console.Write("Enter choice: ");
             choice =int.Parse(System.Console.ReadLine ());
-
-                switch (choice)
-                {
-                    case 1:  customerMenu();//Customer menu
-                        break;
-                    case 2: accountMenu(); // Accounts menu
-                        break;
-                    case 3:  // funds transfer
-                        break;
-                    case 4: //funds transfer statement
-                        break;
-                    case 5: // account statement
-                        break;
-                } 
+                    
+                    switch (choice)
+                    {
+                        case 1:  customerMenu();//Customer menu
+                            break;
+                        case 2: accountMenu(); // Accounts menu
+                            break;
+                        case 3:  // funds transfer
+                            break;
+                        case 4: //funds transfer statement
+                            break;
+                        case 5: // account statement
+                            break;
+                    } 
 
         } while (choice != 0);
     }
@@ -72,6 +76,7 @@
         int cChoice = -1;
         do
         {
+            //print out menu
             System.Console.WriteLine("\n::::Customers menu::::");
             System.Console.WriteLine("1. Add Customer");
             System.Console.WriteLine("2. Delete Customer");
@@ -95,7 +100,7 @@
 
             }
         } while (cChoice != 0);
-
+ 
         
 
         
@@ -105,6 +110,7 @@
         int aChoice = -1;
         do
         {
+            //print out menu
             System.Console.WriteLine("\n::::Account menu::::");
             System.Console.WriteLine("1. Add Account");
             System.Console.WriteLine("2. Delete Account");
