@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bank",
+    "\\Bank\\BankProject"
   ],
-  "SelectedNode": "\\C:\\Users\\Jared\\Source\\Repos\\BankProjectCSharp",
   "PreviewInSolutionExplorer": false
 }
