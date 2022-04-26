@@ -49,5 +49,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bank.BusinessLogicLayer\Bank.BusinessLogicLayer.csproj">
+      <Project>{d0f68448-1d69-426d-a067-392ce5b699cf}</Project>
+      <Name>Bank.BusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bank.Configuration\Bank.Configuration.csproj">
+      <Project>{cb679d7e-04ab-4439-b55f-04ff1e91351a}</Project>
+      <Name>Bank.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bank.Entities\Bank.Entities.csproj">
+      <Project>{34132419-506c-412f-9434-47734ae01576}</Project>
+      <Name>Bank.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bank.Exceptions\Bank.Exceptions.csproj">
+      <Project>{67227bc5-f73e-4f28-a4db-62004995f2b7}</Project>
+      <Name>Bank.Exceptions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
