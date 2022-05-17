@@ -3,9 +3,34 @@
   "ProjectMap": {
     "ab58f3be-e56f-4399-8049-3fd9f83830e7": {
       "ProjectGuid": "ab58f3be-e56f-4399-8049-3fd9f83830e7",
-      "DisplayName": "BankProject",
+      "DisplayName": "Bank.Prensentation",
       "ColorIndex": 0
+    },
+    "34132419-506c-412f-9434-47734ae01576": {
+      "ProjectGuid": "34132419-506c-412f-9434-47734ae01576",
+      "DisplayName": "Bank.Entities",
+      "ColorIndex": 1
+    },
+    "5316db0a-f304-4619-ab24-e2f2b3babec4": {
+      "ProjectGuid": "5316db0a-f304-4619-ab24-e2f2b3babec4",
+      "DisplayName": "Bank.DataAccessLayer",
+      "ColorIndex": 2
+    },
+    "d0f68448-1d69-426d-a067-392ce5b699cf": {
+      "ProjectGuid": "d0f68448-1d69-426d-a067-392ce5b699cf",
+      "DisplayName": "Bank.BusinessLogicLayer",
+      "ColorIndex": 3
+    },
+    "cb679d7e-04ab-4439-b55f-04ff1e91351a": {
+      "ProjectGuid": "cb679d7e-04ab-4439-b55f-04ff1e91351a",
+      "DisplayName": "Bank.Configuration",
+      "ColorIndex": 4
+    },
+    "67227bc5-f73e-4f28-a4db-62004995f2b7": {
+      "ProjectGuid": "67227bc5-f73e-4f28-a4db-62004995f2b7",
+      "DisplayName": "Bank.Exceptions",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 6
 }

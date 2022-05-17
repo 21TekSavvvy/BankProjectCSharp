@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace Bank.Entities
+namespace Bank.Entities.Contracts
 {
     public interface ICustomer
     {
