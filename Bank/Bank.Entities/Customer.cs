@@ -9,7 +9,7 @@ namespace Bank.Entities
      public class Customer : ICustomer
     {
 
-        //fields
+        #region Private fields
         private Guid customerID;
         private string customerCode;
         private string customerName;
@@ -17,15 +17,37 @@ namespace Bank.Entities
         private string city;
         private string country;
         private string mobile;
+        #endregion
 
-
-        //properties
+        #region Public Properties
+        /// <summary>
+        /// Guid of Customer for Unique identification
+        /// </summary>
         public Guid CustomerID { get => customerID; set => customerID = value; }
+        /// <summary>
+        /// Auto-generated code number of the customer
+        /// </summary>
         public string CustomerCode { get => customerCode; set => customerCode = value; }
+        /// <summary>
+        /// Name of Customer
+        /// </summary>
         public string CustomerName { get => customerName; set => customerName = value; }
+        /// <summary>
+        /// Address of Customer
+        /// </summary>
         public string Address { get => address; set => address = value; }
+        /// <summary>
+        /// City of Customer
+        /// </summary>
         public string City { get => city; set => city = value; }
+        /// <summary>
+        /// Country of Customer
+        /// </summary>
         public string Country { get => country; set => country = value; }
+        /// <summary>
+        /// Phone Number of Customer
+        /// </summary>
         public string Mobile { get => mobile; set => mobile = value; }
+        #endregion
     }
 }

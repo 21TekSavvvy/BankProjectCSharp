@@ -5,6 +5,7 @@ namespace Bank.Entities.Contracts
 {
     public interface ICustomer
     {
+        #region Propeties
         Guid CustomerID { get; set; }
         long CustomerCode { get; set; }
         string CustomerName { get; set; }
@@ -13,5 +14,6 @@ namespace Bank.Entities.Contracts
         string Landmark { get; set; }
         string Country { get; set; }
         string Mobile { get; set; }
+        #endregion
     }
 }
