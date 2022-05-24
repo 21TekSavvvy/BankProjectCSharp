@@ -12,10 +12,19 @@ namespace Bank.Exceptions
         /// Constructor that initializes  exception message
         /// </summary>
         /// <param name="message">exception message</param>
+      
         public CustomerException( string message): base(message)
         {
 
         }
-        public CustomerException
+        /// <summary>
+        ///  Constructor that initializes  exception message and inner exception
+        /// </summary>
+        /// <param name="message">Exception message</param>
+        /// <param name="innerException">Inner exception</param>
+        public CustomerException(string message, Exception innerException): base(message, innerException)
+        {
+
+        }
     }
 }

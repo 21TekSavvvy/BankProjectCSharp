@@ -1,5 +1,6 @@
 ﻿using System;
 using Bank.Entities.Contracts;
+using Bank.Exceptions;
 
 namespace Bank.Entities
 {
@@ -11,7 +12,7 @@ namespace Bank.Entities
 
         #region Private fields
         private Guid customerID;
-        private string customerCode;
+        private long customerCode;
         private string customerName;
         private string address;
         private string city;
@@ -24,10 +25,25 @@ namespace Bank.Entities
         /// Guid of Customer for Unique identification
         /// </summary>
         public Guid CustomerID { get => customerID; set => customerID = value; }
+
         /// <summary>
         /// Auto-generated code number of the customer
         /// </summary>
-        public string CustomerCode { get => customerCode; set => customerCode = value; }
+        public long CustomerCode 
+        {
+            get => customerCode;
+            set
+            {
+                if (value > 0)
+                {
+                    customerCode = value;
+                }
+                else
+                {
+                    throw new CustomerException("Customer code should be positive only");
+                }    
+            }
+        }
         /// <summary>
         /// Name of Customer
         /// </summary>
