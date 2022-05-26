@@ -7,7 +7,7 @@ namespace Bank.Entities
     /// <summary>
     /// Represents customer of the bank
     /// </summary>
-     public class Customer : ICustomer
+     public class Customer : ICustomer, ICloneable
     {
 
         #region Private fields
@@ -47,7 +47,19 @@ namespace Bank.Entities
         /// <summary>
         /// Name of Customer
         /// </summary>
-        public string CustomerName { get => customerName; set => customerName = value; }
+        public string CustomerName { get => customerName; set
+            {
+                if (value.Length <=40 && string.IsNullOrEmpty(value) == false)
+                {
+                    customerName = value; 
+                }
+                else
+                {
+                    throw new CustomerException("Customer Name should not be null and less than 40 characters long.");
+                }
+               
+            }
+               }
         /// <summary>
         /// Address of Customer
         /// </summary>
@@ -63,7 +75,22 @@ namespace Bank.Entities
         /// <summary>
         /// Phone Number of Customer
         /// </summary>
-        public string Mobile { get => mobile; set => mobile = value; }
+        public string Mobile { get => mobile; 
+            set  
+            {
+                if (value.Length == 10)
+                {
+                    mobile = value;
+                }
+                else
+                {
+                    throw new CustomerException("Mobile number should be a 10 digit number");
+                }
+                
+            }
+        }
         #endregion
+
+
     }
 }

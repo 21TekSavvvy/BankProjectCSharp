@@ -2,7 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Bank",
+    "\\Bank\\Bank.DataAccessLayer",
+    "\\Bank\\Bank.DataAccessLayer\\DAL Contracts",
+    "\\Bank\\Bank.Entities",
+    "\\Bank\\Bank.Exceptions",
     "\\Bank\\BankProject"
   ],
+  "SelectedNode": "\\Bank\\Bank.DataAccessLayer\\DAL Contracts",
   "PreviewInSolutionExplorer": false
 }
