@@ -24,6 +24,9 @@ namespace Bank.DataAccessLayer
 
 
         #region Properties
+        /// <summary>
+        /// Represents source customers collection
+        /// </summary>
         private List<Customer> Customers
         {
             set => customers = value;
@@ -32,9 +35,21 @@ namespace Bank.DataAccessLayer
         #endregion
 
         #region Methods
+        /// <summary>
+        /// Returns all existing customers
+        /// </summary>
+        /// <returns>Customers list</returns>
         public List<Customer> GetCustomers()
         {
-            return Customers;
+            //create a new customer list
+            List<Customer> customersList = new List<Customer>();
+            // copy all customer from the source collection into the new Customers list
+             Customers.ForEach(item =>customersList.Add(item.Clone() as Customer));
+            return customersList;
+        }
+        public List<Customer> GetCustomersByCondition()
+        {
+
         }
         #endregion
     }

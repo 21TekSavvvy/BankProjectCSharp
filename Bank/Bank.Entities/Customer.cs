@@ -15,6 +15,7 @@ namespace Bank.Entities
         private long customerCode;
         private string customerName;
         private string address;
+        private string landmark;
         private string city;
         private string country;
         private string mobile;
@@ -65,6 +66,10 @@ namespace Bank.Entities
         /// </summary>
         public string Address { get => address; set => address = value; }
         /// <summary>
+        /// Landmark of Customer
+        /// </summary>
+        public string Landmark { get => landmark; set => landmark = value; }
+        /// <summary>
         /// City of Customer
         /// </summary>
         public string City { get => city; set => city = value; }
@@ -91,6 +96,12 @@ namespace Bank.Entities
         }
         #endregion
 
+        #region Methods
+        public object Clone()
+        {
+            return new Customer() { CustomerID = this.CustomerID, CustomerCode = this.CustomerCode, CustomerName = this.customerName, Address = this.Address, Landmark = this.Landmark, City = this.City, Country = this.Country, Mobile = this.Mobile };
+        }
+        #endregion
 
     }
 }
