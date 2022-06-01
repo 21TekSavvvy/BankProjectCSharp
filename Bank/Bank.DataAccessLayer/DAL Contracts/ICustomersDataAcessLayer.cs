@@ -21,7 +21,7 @@ namespace Bank.DataAccessLayer.DAL_Contracts
         /// </summary>
         /// <param name="predicate">Lamdba expression that contains condition to check</param>
         /// <returns>The list of matching customers</returns>
-        List<Customer> GetCustomerByCondition(Predicate<Customer> predicate);
+        List<Customer> GetCustomersByCondition(Predicate<Customer> predicate);
 
         /// <summary>
         /// Adds a new customer to the existing list
