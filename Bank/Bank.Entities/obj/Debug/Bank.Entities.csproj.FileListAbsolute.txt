@@ -1,0 +1,9 @@
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Entities\bin\Debug\Bank.Entities.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Entities\bin\Debug\Bank.Entities.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Entities\bin\Debug\Bank.Exceptions.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Entities\bin\Debug\Bank.Exceptions.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Entities\obj\Debug\Bank.Entities.csproj.AssemblyReference.cache
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Entities\obj\Debug\Bank.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Entities\obj\Debug\Bank.Entities.csproj.CopyComplete
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Entities\obj\Debug\Bank.Entities.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Entities\obj\Debug\Bank.Entities.pdb

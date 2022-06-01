@@ -1,0 +1,5 @@
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Exceptions\bin\Debug\Bank.Exceptions.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Exceptions\bin\Debug\Bank.Exceptions.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Exceptions\obj\Debug\Bank.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Exceptions\obj\Debug\Bank.Exceptions.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Exceptions\obj\Debug\Bank.Exceptions.pdb

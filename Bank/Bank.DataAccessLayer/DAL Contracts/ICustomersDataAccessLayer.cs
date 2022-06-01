@@ -8,7 +8,7 @@ namespace Bank.DataAccessLayer.DAL_Contracts
     /// <summary>
     /// Interface that represents customers data access layer
     /// </summary>
-    public interface ICustomersDataAcessLayer
+    public interface ICustomersDataAccessLayer
     {
         /// <summary>
         /// Returns all existing customers

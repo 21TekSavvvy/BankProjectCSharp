@@ -1,0 +1,15 @@
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.BusinessLogicLayer.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.BusinessLogicLayer.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.Configuration.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.DataAccessLayer.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.Entities.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.Exceptions.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.Configuration.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.DataAccessLayer.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.Entities.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\bin\Debug\Bank.Exceptions.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\obj\Debug\Bank.BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\obj\Debug\Bank.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\obj\Debug\Bank.BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\obj\Debug\Bank.BusinessLogicLayer.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.BusinessLogicLayer\obj\Debug\Bank.BusinessLogicLayer.pdb

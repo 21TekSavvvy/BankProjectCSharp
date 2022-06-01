@@ -1,0 +1,5 @@
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Configuration\bin\Debug\Bank.Configuration.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Configuration\bin\Debug\Bank.Configuration.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Configuration\obj\Debug\Bank.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Configuration\obj\Debug\Bank.Configuration.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.Configuration\obj\Debug\Bank.Configuration.pdb

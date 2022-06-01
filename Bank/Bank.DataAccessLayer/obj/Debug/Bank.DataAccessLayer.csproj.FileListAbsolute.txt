@@ -1,0 +1,11 @@
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\bin\Debug\Bank.DataAccessLayer.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\bin\Debug\Bank.DataAccessLayer.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\bin\Debug\Bank.Entities.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\bin\Debug\Bank.Exceptions.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\bin\Debug\Bank.Entities.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\bin\Debug\Bank.Exceptions.pdb
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\obj\Debug\Bank.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\obj\Debug\Bank.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\obj\Debug\Bank.DataAccessLayer.csproj.CopyComplete
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\obj\Debug\Bank.DataAccessLayer.dll
+C:\Users\Jared\source\repos\BankProjectCSharp\Bank\Bank.DataAccessLayer\obj\Debug\Bank.DataAccessLayer.pdb

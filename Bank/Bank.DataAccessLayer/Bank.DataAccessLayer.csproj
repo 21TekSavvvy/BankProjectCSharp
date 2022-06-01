@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerDataAccessLayer.cs" />
-    <Compile Include="DAL Contracts\ICustomersDataAcessLayer.cs" />
+    <Compile Include="CustomersDataAccessLayer.cs" />
+    <Compile Include="DAL Contracts\ICustomersDataAccessLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

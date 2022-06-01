@@ -9,14 +9,14 @@ namespace Bank.DataAccessLayer
     /// <summary>
     /// Represents DAL for bank customer
     /// </summary>
-    public class CustomerDataAccessLayer : ICustomersDataAcessLayer
+    public class CustomersDataAccessLayer : ICustomersDataAccessLayer
     {
         #region Fields
         private List<Customer> customers;
         #endregion
 
         #region Constructors
-        public CustomerDataAccessLayer()
+        public CustomersDataAccessLayer()
             {
                 customers = new List<Customer>();
             }
